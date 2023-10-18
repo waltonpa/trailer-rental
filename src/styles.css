@@ -1,0 +1,329 @@
+/** @format */
+/* font-family: 'Poppins', sans-serif; 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;*/
+:root {
+  --primary-color: #63c7ff;
+  --secondary-color: #f6fdff;
+  --text-color: rgb(117, 117, 117);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.185);
+}
+h1 {
+  color: silver;
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 127.97px;
+  padding: 20px 0;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--text-color);
+  padding-bottom: 40px;
+}
+h3 {
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 36px;
+  color: var(--text-color);
+}
+h5 {
+  color: silver;
+  font-weight: 700;
+  font-size: 36px;
+}
+h6 {
+  color: var(--text-color);
+  font-size: 20px;
+}
+p {
+  margin-top: 20px;
+  color: var(--text-color);
+}
+p a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+p a:hover {
+  color: var(--primary-color);
+}
+brand {
+  color: var(--text-color);
+}
+footer {
+  text-align: center;
+  padding-top: 10px;
+}
+footer .social-links a {
+  color: var(--primary-color);
+  margin: 0 20px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: all 200ms ease-in-out;
+}
+footer .social-links a:hover {
+  transform: scale(1.2);
+  color: white;
+  background: var(--primary-color);
+}
+.bottom-footer {
+  padding: 50px 0;
+}
+.certificates {
+  padding-top: 100px;
+}
+.certificate-images {
+  border-radius: 30px;
+}
+.contact-footer-button {
+  padding-top: 42px;
+}
+.dropdown-menu {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+.footer-mail-link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.footer-mail-link:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.header-overview-projects {
+  padding-bottom: 15px;
+}
+.heading-about {
+  text-align: center;
+}
+.heading-about-p {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  padding-top: 80px;
+  color: var(--text-color);
+}
+.hero {
+  background: #f6fdff;
+  text-align: center;
+}
+.hero-button-links {
+  padding-top: 80px;
+  padding-bottom: 170px;
+}
+.hero p {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  padding-top: 120px;
+  color: var(--text-color);
+}
+.hero-primary-link {
+  margin-right: 20px;
+}
+.hero-secondary-link {
+  margin-left: 20px;
+}
+.inquiry-footer {
+  display: block;
+  margin: 0 auto;
+  background: var(--secondary-color);
+  padding: 10px 0;
+  border-radius: 15px;
+  max-width: 90%;
+}
+.inquiry-text {
+  padding-top: 15px;
+}
+.launch-project {
+  padding-top: 50px;
+}
+.navbar-brand {
+  padding-left: 30px;
+}
+.navbar-collapse {
+  padding-right: 30px;
+}
+.nav-bar-container {
+  background: #f6fdff;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
+.new-skills {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.overlook-of-projects {
+  padding: 80px 0;
+}
+.primary-link {
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+.primary-link:hover {
+  color: var(--text-color);
+}
+.profile-picture {
+  display: block;
+  margin: 0 auto;
+  padding: 40px 10px 50px 10px;
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.project-overwiew-container {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 10px;
+  max-width: 60%;
+}
+.project-overview-description {
+  border: 1px solid transparent;
+  border-radius: 30px;
+}
+.project-overview-images {
+  border: 10px solid var(--secondary-color);
+  border-radius: 30px;
+}
+.project-overview-images a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 700;
+}
+.project-overview-images a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.secondary-link {
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+.secondary-link:hover {
+  color: var(--text-color);
+}
+
+.skill-icon {
+  display: block;
+  margin: 0 auto;
+  padding: 0 10px 100px 10px;
+  max-width: 10%;
+  border-radius: 10px;
+}
+.skills-icons-display {
+  padding-bottom: 40px;
+}
+.skills-learning-display {
+  display: flex;
+  justify-content: space-between;
+}
+.text-align {
+  text-align: center;
+}
+.zoom {
+  transition: all 200ms ease-in-out;
+}
+.zoom:hover {
+  transform: scale(1.8);
+}
+@media (min-width: 1300px) {
+  .about-h1 {
+    color: silver;
+    font-family: "Playfair Display", serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 127.97px;
+    padding: 20px 0;
+  }
+  .heading-about {
+    text-align: center;
+    margin: 10px 50px;
+  }
+  .project-overview-description {
+    border: 80px solid transparent;
+    border-radius: 30px;
+  }
+  .project-overview-images {
+    border: 50px solid var(--secondary-color);
+    border-radius: 30px;
+  }
+  .inquiry-footer {
+    max-width: 70%;
+  }
+}
+@media (max-width: 680px) {
+  h1 {
+    font-size: 50px;
+    padding-top: 120px;
+  }
+  h2 {
+    font-size: 35px;
+    margin: 0 20px;
+  }
+  h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  .heading-about {
+    text-align: center;
+    margin: 1px 0;
+  }
+  .inquiry-footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 96%;
+  }
+  .launch-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .project-overview-description {
+    border: 5px solid transparent;
+  }
+  .project-overview-images {
+    border: none;
+  }
+  .skill-icon {
+    display: block;
+    margin: 0 auto;
+    padding: 0 5px 50px 5px;
+    max-width: 15%;
+    border-radius: 12px;
+  }
+  .sub-heading,
+  .phone-display {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
